@@ -1,0 +1,32 @@
+
+.cabeçalho__navegação{
+    background-color: var(--cor-secundaria);   
+}
+
+.cabeçalho__lista{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em 0.5em;        
+}
+
+.cabeçalho__link{
+    color: var(--branco);
+    font-size: 18px;
+    font-family:var(--fonte-principal);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 720px){
+    .cabeçalho__link{
+        font-size: 28px;
+    }
+
+    .cabeçalho__link:hover{
+        font-size: 29px;
+        color:#2f4f4f;
+    }
+}
+
+
+
+

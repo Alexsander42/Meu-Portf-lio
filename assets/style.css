@@ -1,0 +1,21 @@
+@import url("./nav.css");
+@import url("./header.css");
+@import url("./habilidades.css");
+@import url("./carrosel.css");
+@import url("./rodape.css");
+
+:root{
+    --cor-de-fundo:#000000;
+    --branco:#FFFFFF;
+    --fonte-principal:"Poppins";
+    --cor-secundaria:#1b1b1b;;
+    
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+}
+

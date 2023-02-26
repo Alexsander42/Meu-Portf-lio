@@ -1,0 +1,42 @@
+.container__rodapé{
+    background-color: var(--cor-secundaria);
+    
+}
+
+.rodapé{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.rodapé__imagem{ 
+    margin: 1em;
+    width: 70px;
+    height: 70px;
+    border: solid 3px #ffffff;
+    border-radius: 50%;   
+}
+
+.midias__rodapé{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 1em;
+}
+
+@media screen and (min-width: 720px){
+    .midias__rodapé{
+        font-size: 33px;
+    }
+
+    .rodapé__imagem{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 1080px){
+    .rodapé{
+        justify-content: space-evenly;
+        padding: 1em;
+    }
+}
